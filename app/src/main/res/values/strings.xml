@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CharityApp</string>
+    <string name="registration">Создать аккаунт</string>
+    <string name="login">Войти</string>
+    <string name="Logo">Charity</string>
+    <string name="slogan">Совершайте пожертвования без обмана</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Reg"
+        android:layout_width="329dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/registration"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="329dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/login"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/Reg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="0dp"
+        android:layout_height="149dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="134sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="60dp"
+        android:text="@string/Logo"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="45dp"
+        android:layout_height="50sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bad_logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/slogan"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/Guy1"
+        android:layout_width="56sp"
+        android:layout_height="56sp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/mask_group" />
+
+    <ImageView
+        android:id="@+id/guy2"
+        android:layout_width="56sp"
+        android:layout_height="56sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/Guy1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/mask_group_ek4" />
+
+    <ImageView
+        android:id="@+id/girl1"
+        android:layout_width="56sp"
+        android:layout_height="56sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/guy2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/mask_group_ek1" />
+
+    <ImageView
+        android:id="@+id/girl2"
+        android:layout_width="56sp"
+        android:layout_height="56sp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/girl1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/mask_group_ek2" />
+
+    <ImageView
+        android:id="@+id/girl3"
+        android:layout_width="56sp"
+        android:layout_height="56sp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/girl2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/mask_group_ek3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
