@@ -2,8 +2,10 @@
     <string name="app_name">CharityApp</string>
     <string name="registration">Создать аккаунт</string>
     <string name="login">Войти</string>
-    <string name="Logo">Charity</string>
+    <string name="logo">Charity</string>
     <string name="slogan">Совершайте пожертвования без обмана</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="status">Статус</string>
+    <string name="name_surname">Имя Фамилия</string>'
+    <string name="bt_history">История пожертвований</string>
+    <string name="data_change">Смена данных</string>
 </resources>
